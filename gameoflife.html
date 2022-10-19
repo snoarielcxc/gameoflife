@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="project01.css" />
+</head>
+
+<body>
+   <!-- <div style="display:flex;width:100%;justify-content: space-around;"> <img styile= "margin-" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cb348504-9154-420d-b60b-02b047232ee2/dbq9un0-bbfd6317-6b30-4e8e-b79f-ba0b5627febf.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NiMzQ4NTA0LTkxNTQtNDIwZC1iNjBiLTAyYjA0NzIzMmVlMlwvZGJxOXVuMC1iYmZkNjMxNy02YjMwLTRlOGUtYjc5Zi1iYTBiNTYyN2ZlYmYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.TZmjhayPju__9FEn2qxJkSIUXu-juxoaO_vIGFd3jy0" 
+    width="50px" height="50px">
+     <img src="https://art.pixilart.com/61a81bffce09ea4.gif" 
+    width="50px" height="50px"> -->
+</div>
+    <div style="display:flex; justify-content: space-between; align-items: center;">
+        <div>
+            <div class="row">
+                <div class="col-4">
+                    <button id="start-button" class="btn"><span><b>start</b></span></button>
+                </div>
+                <div class="col-4">
+                    <button id="stop-button" class="btn"> <span><b>stop</b></span> </button>
+
+                </div>
+                <div class="col-4">
+                    <button id="reset-button" class="btn"><span><b>restart</b></span></button>
+                </div>
+            </div>
+
+        </div>
+
+        <div style="display:flex ; align-items :end">
+            <img src="supermario-alpha.png" alt="header" width="700px" height = "150px"> 
+            <div id="nighttheme-button"> <img src="moon.png" class = "moon" style="margin-bottom: 15px"></div>
+        </div>
+
+        <div>
+            <div class="row">
+                <div class="col-4">
+                    <button id="mute-button" class="btn"> <span>mute</span> </button>
+
+                </div>
+                <div class="col-4">
+                    <button id="unmute-button" class="btn"> <span>unmute</span> </button>
+
+                </div>
+                  
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- <header>
+        <div class="d-flex justify-content-between" >
+            <div>
+                <button id="start-button" class="btn"><span><b>start</b></span></button>
+                 <img src="SMG2_Cloudflower.webp">
+                <button id="stop-button" class="btn"> <span><b>stop</b></span> </button>
+                <button id="reset-button" class="btn"><span><b>restart</b></span></button>
+            </div>
+            <img src="supermario.png" alt="header" width="600px" height = "120px"> 
+
+            <div>
+                <button id="mute-button" class="btn"> <span>mute</span> </button>
+                <button id="unmute-button" class="btn"> <span>unmute</span> </button>
+
+                <div id="nighttheme-button"> <img src="moon.png" class = "moon"></div>
+            </div>
+        </div>
+    </header> -->
+
+    <audio controls autoplay id="aduioControl" hidden>
+        <source id="mp3Aduio" src="Super Mario Bros. Soundtrack.mp3" type="audio/ogg">
+        <!-- <source src="Super Mario Bros. Soundtrack.mp3" type="audio/mpeg"> -->
+
+    </audio>
+    <div class = d-flex>
+        <div id='canvas' style="display: inline-block; margin:auto">
+        <video id="bgvideo"src = mario.mp4 > </video>
+        <!-- <div class="bgimage"></div> -->
+    </div> 
+    </div>
+   
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
+    <script src="project.001.js"></script>
+</body>
+
+</html>

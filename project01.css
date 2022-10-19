@@ -1,0 +1,102 @@
+#canvas {
+    /* background-image: url(super-mario-wallpaper-5gqa6t74e1kl7ho9-5gqa6t74e1kl7ho9.jpeg);
+    background-size: contain; */
+    position: relative;
+    overflow: hidden;
+    /* opacity: 0.5; */
+}
+#canvas video{
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    width: 100%;
+    /* height: 100%; */
+} 
+#canvas .bgimage{
+    background-image: url(super-mario-wallpaper-5gqa6t74e1kl7ho9-5gqa6t74e1kl7ho9.jpeg);
+    background-size: contain;
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+}
+.btn span {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* padding: 0.5rem; */
+    margin: 0.5rem;
+    display: inline-block;
+    transform: translateY(130%);
+}
+
+#start-button {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(block.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+#stop-button {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(block.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+#reset-button {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(block.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+
+
+header {
+    background-image: url(skypic.jpeg) ;
+    /* background-image: url(supermario.png); */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1em;
+    
+}
+
+#mute-button {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(SMG2_Cloudflower.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+#unmute-button {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(SMG2_Cloudflower.webp);
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    color: black;
+
+}
+
+.sun {
+    height: 40px;
+}
+
+.moon {
+    height: 40px;
+}
+
+body{
+    background-image: url(skybg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
